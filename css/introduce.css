@@ -1,0 +1,66 @@
+.bg-grey .explain{
+    font-size: 16px;
+}
+.pic_left{
+    width: 165px;
+    height: 140px;
+    line-height: 165px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+}
+.pic_left img{
+    width: 72px;
+    height: 72px;
+    vertical-align: middle;
+}
+.content_right{
+    width: 835px;
+    float: left;
+}
+.content_right h4{
+    padding: 0 10px;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    color: #000;
+    background-color: #e3e3e3;
+    font-weight: 600;
+}
+.content_right p{
+    margin-top: 39px;
+    margin-bottom: 15px;
+}
+.content_right .btn{
+    border: none;
+    border-radius: 0;
+    height: 30px;
+    line-height: 30px;
+    background-color:#79bad8 ;
+    font-size: 16px;
+    padding: 0 12px;
+}
+.content_right .btn:hover{
+    background-color: #0c5ac9
+}
+.bg-white .extension .temp{
+    float:left;
+    width: 50%;
+}
+.bg-white .extension .temp img{
+    float:left;
+    padding: 50px
+;
+}
+.bg-white .extension li div {
+    float: left;
+}
+.bg-white .extension .temp h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.extension_list li{
+    line-height: 24px;
+}
