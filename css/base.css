@@ -144,7 +144,7 @@ table{
 }
 .banner .pic li{
     float:left;
-    width: 1349px;
+    width: 100%;
 }
 .banner .pic .prev{
     display:block;
