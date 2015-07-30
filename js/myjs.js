@@ -4,18 +4,22 @@
 
 //点击next按钮
 function clickNext(){
-    if($(".pic ul").css("left")=="-1349px"){
-        $(".pic ul").animate({left:-2698},400)
+    var x=$(".pic ul").css("left");
+    x = x.substring(0, x.indexOf('px'));
+    if(x=="-6745"){
+        $(".pic ul").css({left:0}).animate({left:-1349},400);
     }else{
-        $(".pic ul").css({left:0}).animate({left:-1349},400)
+        $(".pic ul").animate({left:x-"1349"},400);
     }
 }
 //点击prev按钮
 function clickPrev(){
-    if($(".pic ul").css("left")=="-1349px"){
-        $(".pic ul").animate({left:0},400)
+    var x=$(".pic ul").css("left");
+    x = x.substring(0, x.indexOf('px'));
+    if(x=="0"){
+        $(".pic ul").css({left:-6745}).animate({left:-5396},400);
     }else{
-        $(".pic ul").css({left:-2698}).animate({left:-1349},400)
+        $(".pic ul").animate({left:-(-x-1349)},400);
     }
 }
 //设置自动轮播时间

@@ -133,9 +133,10 @@ table{
 .banner .pic{
     position: relative;
     text-align: center;
+    overflow: hidden;
 }
 .banner .pic ul{
-    width:5396px;
+    width:8094px;
     position:relative;
     overflow: hidden;
     padding: 0;
@@ -144,7 +145,7 @@ table{
 }
 .banner .pic li{
     float:left;
-    width: 100%;
+    width: 1394px;
 }
 .banner .pic .prev{
     display:block;
@@ -364,6 +365,7 @@ table{
 }
 .footer .notice {
     width: 270px;
+    float: right;
 }
 .footer .notice .hd {
     margin-top: -5px;
