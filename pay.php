@@ -7,9 +7,10 @@
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/pay.css">
     <script src="js/jquery-2.1.4.js"></script>
-    <script src="js/jquery.SuperSlide.2.1.1.js"></script>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/myjs.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="http://cdn.bootcss.com/holder/2.0/holder.min.js"></script>
 </head>
 <body onload="slideUp()">
 <?php
@@ -17,41 +18,28 @@ include "header.php";
 ?>
 <script>
     $(".header .nav a").eq(1).addClass("active");
-    $(document).ready(function(){
-        var  a=$(window).width();
-        var  b=6*a;
-        $(".pic ul").css({width:b});
-        $(".pic li").css({width:a});
-        $(".pic ul").css({left:-a});
-    })
 </script>
 
 <div class="banner container-fluid">
-    <div class="pic container-fluid">
-            <ul>
-                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)">
-                    <a href=""><img src="images/-banner-5593b8e83a788.jpeg" alt=""/></a>
-                </li>
-                <li style="background: url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)">
-                    <a href=""><img src="images/-banner-5593b8e83a788.jpeg" alt=""/></a>
-                </li>
-                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)">
-                    <a href=""><img src="images/-banner-5593b8e83a788.jpeg" alt=""/></a>
-                </li>
-                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)">
-                    <a href=""><img src="images/-banner-5593b8e83a788.jpeg" alt=""/></a>
-                </li>
-                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)">
-                    <a href=""><img src="images/-banner-5593b8e83a788.jpeg" alt=""/></a>
-                </li>
-                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)">
-                    <a href=""><img src="images/-banner-5593b8e83a788.jpeg" alt=""/></a>
-                </li>
-            </ul>
-
-        <a href="javascript:clickPrev()" class="prev"></a>
-        <a  onclick="clickNext()" class="next"></a>
-    </div>
+        <div id="myCarousel" class="carousel slide container-fluid">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Carousel items -->
+            <div class="carousel-inner container">
+                <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)" class="active item"><img  src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
+                <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)" class="item"><img src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
+                <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)"  class="item"><img src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
+            </div>
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+        <script>
+            $('.carousel').carousel({interval:3000});
+        </script>
 
     <div class="notice container-fluid ">
         <div class="w-1000 container">
@@ -133,91 +121,89 @@ include "header.php";
     <div class="bg-white container-fluid">
         <div class="clump w-1000 container">
             <h3 class="title">优质产品</h3>
-            <div class="product" style="position: relative">
-                <div class="tempWrap" style="overflow:hidden;position: relative;width: 1000px">
-                    <ul class="clearfix" style="width:2500px;position: relative;overflow: hidden;padding: 0;left:-250px">
-                        <li style="float:left;width: 190px">
-                            <h4>手机端-百度手机卫士</h4>
-                            <a href="introduce.php" class="icon" title="手机端-百度手机卫士">
-                                <img src="images/-product-55713fbcd210f.png" alt=""/>
-                            </a>
-                            <p class="info">超过一亿人使用的手机安全工具，更快更安心！</p>
-                            <a href="introduce.php" class="btn btn-primary">了解详情>></a>
-                        </li>
-                        <li style="float:left;width: 190px">
-                            <h4>手机端-手机百度</h4>
-                            <a href="" class="icon" title="手机端-手机百度">
-                                <img src="images/-product-556837e18f415.png" alt=""/>
-                            </a>
-                            <p class="info">6亿用户的手机搜索客户端，装机必备软件。</p>
-                            <a href="" class="btn btn-primary">了解详情>></a>
-                        </li>
-                        <li style="float:left;width: 190px">
-                            <h4>手机端-百度浏览器</h4>
-                            <a href="" class="icon" title="手机端-百度浏览器">
-                                <img src="images/-product-5568380058afe.png" alt=""/>
-                            </a>
-                            <p class="info">上网飞快，夜色“好看”，引领最新潮浏览时代。</p>
-                            <a href="" class="btn btn-primary">了解详情>></a>
-                        </li>
-                        <li style="float:left;width: 190px">
-                            <h4>手机端-百度地图</h4>
-                            <a href="" class="icon" title="手机端-百度地图">
-                                <img src="images/-product-557f98c86d33e.png" alt=""/>
-                            </a>
-                            <p class="info">专业手机地图导航，您的出行指南！</p>
-                            <a href="" class="btn btn-primary">了解详情>></a>
-                        </li>
-                        <li style="float:left;width: 190px">
-                            <h4>手机端-百度手机助手</h4>
-                            <a href="" class="icon" title="手机端-百度手机助手">
-                                <img src="images/-product-5568381099df1.png" alt=""/>
-                            </a>
-                            <p class="info">安卓手机权威资源平台，高速下载、轻松管理。</p>
-                            <a href="" class="btn btn-primary">了解详情>></a>
-                        </li>
-                        <li style="float:left;width: 190px">
-                            <h4>手机端-百度手机卫士</h4>
-                            <a href="introduce.php" class="icon" title="手机端-百度手机卫士">
-                                <img src="images/-product-55713fbcd210f.png" alt=""/>
-                            </a>
-                            <p class="info">超过一亿人使用的手机安全工具，更快更安心！</p>
-                            <a href="introduce.php" class="btn btn-primary">了解详情>></a>
-                        </li>
-                        <li style="float:left;width: 190px">
-                            <h4>手机端-手机百度</h4>
-                            <a href="" class="icon" title="手机端-手机百度">
-                                <img src="images/-product-556837e18f415.png" alt=""/>
-                            </a>
-                            <p class="info">6亿用户的手机搜索客户端，装机必备软件。</p>
-                            <a href="" class="btn btn-primary">了解详情>></a>
-                        </li>
-                        <li style="float:left;width: 190px">
-                            <h4>手机端-百度浏览器</h4>
-                            <a href="" class="icon" title="手机端-百度浏览器">
-                                <img src="images/-product-5568380058afe.png" alt=""/>
-                            </a>
-                            <p class="info">上网飞快，夜色“好看”，引领最新潮浏览时代。</p>
-                            <a href="" class="btn btn-primary">了解详情>></a>
-                        </li>
-                        <li style="float:left;width: 190px">
-                            <h4>手机端-百度地图</h4>
-                            <a href="" class="icon" title="手机端-百度地图">
-                                <img src="images/-product-557f98c86d33e.png" alt=""/>
-                            </a>
-                            <p class="info">专业手机地图导航，您的出行指南！</p>
-                            <a href="" class="btn btn-primary">了解详情>></a>
-                        </li>
-                        <li style="float:left;width: 190px">
-                            <h4>手机端-百度手机助手</h4>
-                            <a href="" class="icon" title="手机端-百度手机助手">
-                                <img src="images/-product-5568381099df1.png" alt=""/>
-                            </a>
-                            <p class="info">安卓手机权威资源平台，高速下载、轻松管理。</p>
-                            <a href="" class="btn btn-primary">了解详情>></a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="product" style="position: relative;overflow: hidden">
+                <ul class="clearfix" style="width:2500px;position: relative;overflow: hidden;padding: 0;left:-250px">
+                    <li style="float:left;width: 190px">
+                        <h4>代运营</h4>
+                        <a href="introduce.php" class="icon" title="代运营">
+                            <img src="images/-product-55713fbcd210f.png" alt=""/>
+                        </a>
+                        <p class="info">产品分析，渠道建议，资源覆盖广，投放精准</p>
+                        <a href="introduce.php" class="btn btn-primary">详情</a>
+                    </li>
+                    <li style="float:left;width: 190px">
+                        <h4>广点通</h4>
+                        <a href="" class="icon" title="广点通">
+                            <img src="images/-product-556837e18f415.png" alt=""/>
+                        </a>
+                        <p class="info">定制化推广服务商，精准投放的倡导者，经验丰富的代运营团队</p>
+                        <a href="" class="btn btn-primary">详情</a>
+                    </li>
+                    <li style="float:left;width: 190px">
+                        <h4>数据优化</h4>
+                        <a href="" class="icon" title="数据优化">
+                            <img src="images/-product-5568380058afe.png" alt=""/>
+                        </a>
+                        <p class="info">专业团队，客户跟踪，实时分析，数据优化，提升效果</p>
+                        <a href="" class="btn btn-primary">详情</a>
+                    </li>
+                    <li style="float:left;width: 190px">
+                        <h4>ASO</h4>
+                        <a href="" class="icon" title="ASO">
+                            <img src="images/-product-557f98c86d33e.png" alt=""/>
+                        </a>
+                        <p class="info">协助新产品在应用市场初期的下载，评论优化</p>
+                        <a href="" class="btn btn-primary">详情</a>
+                    </li>
+                    <li style="float:left;width: 190px">
+                        <h4>各大应用市场</h4>
+                        <a href="" class="icon" title="各大应用市场">
+                            <img src="images/-product-5568381099df1.png" alt=""/>
+                        </a>
+                        <p class="info">针对苹果市场提升竞争力，专业的ASO团队</p>
+                        <a href="" class="btn btn-primary">详情</a>
+                    </li>
+                    <li style="float:left;width: 190px">
+                        <h4>代运营</h4>
+                        <a href="introduce.php" class="icon" title="代运营">
+                            <img src="images/-product-55713fbcd210f.png" alt=""/>
+                        </a>
+                        <p class="info">产品分析，渠道建议，资源覆盖广，投放精准！</p>
+                        <a href="introduce.php" class="btn btn-primary">详情</a>
+                    </li>
+                    <li style="float:left;width: 190px">
+                        <h4>广点通</h4>
+                        <a href="" class="icon" title="广点通">
+                            <img src="images/-product-556837e18f415.png" alt=""/>
+                        </a>
+                        <p class="info">定制化推广服务商，精准投放的倡导者，经验丰富的代运营团队</p>
+                        <a href="" class="btn btn-primary">详情</a>
+                    </li>
+                    <li style="float:left;width: 190px">
+                        <h4>数据优化</h4>
+                        <a href="" class="icon" title="数据优化">
+                            <img src="images/-product-5568380058afe.png" alt=""/>
+                        </a>
+                        <p class="info">专业团队，客户跟踪，实时分析，数据优化，提升效果</p>
+                        <a href="" class="btn btn-primary">详情</a>
+                    </li>
+                    <li style="float:left;width: 190px">
+                        <h4>ASO</h4>
+                        <a href="" class="icon" title="ASO">
+                            <img src="images/-product-557f98c86d33e.png" alt=""/>
+                        </a>
+                        <p class="info">协助新产品在应用市场初期的下载，评论优化</p>
+                        <a href="" class="btn btn-primary">详情</a>
+                    </li>
+                    <li style="float:left;width: 190px">
+                        <h4>各大应用市场</h4>
+                        <a href="" class="icon" title="各大应用市场">
+                            <img src="images/-product-5568381099df1.png" alt=""/>
+                        </a>
+                        <p class="info">针对苹果市场提升竞争力，专业的ASO团队</p>
+                        <a href="" class="btn btn-primary">详情</a>
+                    </li>
+                </ul>
                 <a href="javascript:clickedPrev()" class="prev"></a>
                 <a href="javascript:clickedNext()" class="next"></a>
             </div>

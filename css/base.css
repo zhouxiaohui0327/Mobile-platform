@@ -130,48 +130,48 @@ table{
     background-color:#000e24;
 }
 
-.banner .pic{
-    position: relative;
-    text-align: center;
-    overflow: hidden;
-}
-.banner .pic ul{
-    position:relative;
-    overflow: hidden;
-    padding: 0;
-    margin:0;
-    height: 370px;
-}
-.banner .pic li{
-    float:left;
-    width: 1394px;
-}
+/*.banner .pic{*/
+    /*position: relative;*/
+    /*text-align: center;*/
+    /*overflow: hidden;*/
+/*}*/
+/*.banner .pic ul{*/
+    /*position:relative;*/
+    /*overflow: hidden;*/
+    /*padding: 0;*/
+    /*margin:0;*/
+    /*height: 370px;*/
+/*}*/
+/*.banner .pic li{*/
+    /*float:left;*/
+    /*width: 1394px;*/
+/*}*/
 
 
-.banner .pic .prev{
-    display:block;
-    position:absolute;
-    top: 160px;
-    left: 0;
-    width: 58px;
-    height: 60px;
-    background: url(../images/icon-btn-02.png)0 0 no-repeat;
-}
-.banner .pic .prev:hover{
-    background-position: 0 -69px;
-}
-.banner .pic .next{
-    display:block;
-    position: absolute;
-    top: 160px;
-    right: 0;
-    width: 58px;
-    height: 60px;
-    background: url(../images/icon-btn-02.png)-65px 0 no-repeat;;
-}
-.banner .pic .next:hover{
-    background-position: -65px -69px;
-}
+/*.banner .pic .prev{*/
+    /*display:block;*/
+    /*position:absolute;*/
+    /*top: 160px;*/
+    /*left: 0;*/
+    /*width: 58px;*/
+    /*height: 60px;*/
+    /*background: url(../images/icon-btn-02.png)0 0 no-repeat;*/
+/*}*/
+/*.banner .pic .prev:hover{*/
+    /*background-position: 0 -69px;*/
+/*}*/
+/*.banner .pic .next{*/
+    /*display:block;*/
+    /*position: absolute;*/
+    /*top: 160px;*/
+    /*right: 0;*/
+    /*width: 58px;*/
+    /*height: 60px;*/
+    /*background: url(../images/icon-btn-02.png)-65px 0 no-repeat;;*/
+/*}*/
+/*.banner .pic .next:hover{*/
+    /*background-position: -65px -69px;*/
+/*}*/
 
 
 
