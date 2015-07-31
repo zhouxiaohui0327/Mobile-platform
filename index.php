@@ -6,16 +6,9 @@
     <title>移动合作平台 - 百度APP付费推广、APP换量合作、移动搜索分成Mcp.baidu.com</title>
     <link rel="stylesheet" type="text/css"  href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
-
-    <link rel="stylesheet" href="css/ideal-image-slider.css">
-    <link rel="stylesheet" href="css/default.css">
-
     <script src="js/jquery-2.1.4.js"></script>
-<!--    <script src="js/jquery.SuperSlide.2.1.1.js"></script>-->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/myjs.js"></script>
-
-    <script src="js/ideal-image-slider.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <script src="http://cdn.bootcss.com/holder/2.0/holder.min.js"></script>
 </head>
@@ -25,58 +18,8 @@ include 'header.php';
 ?>
 <script>
     $(".header .nav a").eq(0).addClass("active");
-//    $(document).ready(function(){
-//       var  a=$(document.body).width();
-//       var  b=6*a;
-//        $(".pic ul").css({width:b});
-//        $(".pic li").css({width:a});
-//        $(".pic ul").css({left:-a});
-//        $(".carousel-inner img").width(a);
-//    })
 </script>
 <div class="banner container-fluid">
-<!--    <div class="pic container-fluid">-->
-<!--            <ul>-->
-<!--                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)">-->
-<!--                    <a href=""><img src="images/-banner-5593d76716357.jpeg" alt=""/></a>-->
-<!--                </li>-->
-<!--                <li style="background: url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)">-->
-<!--                    <a href=""><img src="images/-banner-5593b87d3ffdb.jpeg" alt=""/></a>-->
-<!--                </li>-->
-<!--                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)">-->
-<!--                    <a href=""><img src="images/-banner-5593d76716357.jpeg" alt=""/></a>-->
-<!--                </li>-->
-<!--                <li style="background: url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)">-->
-<!--                    <a href=""><img src="images/-banner-5593b87d3ffdb.jpeg" alt=""/></a>-->
-<!--                </li>-->
-<!--                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)">-->
-<!--                    <a href=""><img src="images/-banner-5593d76716357.jpeg" alt=""/></a>-->
-<!--                </li>-->
-<!--                <li style="background: url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)">-->
-<!--                    <a href=""><img src="images/-banner-5593b87d3ffdb.jpeg" alt=""/></a>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        <a href="javascript:clickPrev()" class="prev"></a>-->
-<!--        <a  onclick="clickNext()" class="next"></a>-->
-<!--    </div>-->
-
-
-
-<!--    <div class="dowebok">-->
-<!--        <div id="slider">-->
-<!--            <a href="http://www.dowebok.com"><img src="images/-banner-5593d76716357.jpeg" data-src-2x="images/-banner-5593d76716357@2x.jpg" alt=""></a>-->
-<!--            <a href="http://www.dowebok.com"><img data-src="images/-banner-5593b87d3ffdb.jpeg" data-src-2x="images/-banner-5593b87d3ffdb@2x.jpg" alt=""></a>-->
-<!--            <a href="http://www.dowebok.com"><img data-src="images/-banner-5593d76716357.jpeg" data-src-2x="images/-banner-5593d76716357@2x.jpg" alt=""></a>-->
-<!--            <a href="http://www.dowebok.com"><img data-src="images/-banner-5593b87d3ffdb.jpeg" data-src-2x="images/-banner-5593b87d3ffdb@2x.jpg" alt=""></a>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <script>-->
-<!--        x=new IdealImageSlider.Slider('#slider');-->
-<!--            x.start();-->
-<!--    </script>-->
-
-
-
     <div id="myCarousel" class="carousel slide container-fluid">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
