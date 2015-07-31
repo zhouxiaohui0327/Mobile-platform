@@ -136,7 +136,6 @@ table{
     overflow: hidden;
 }
 .banner .pic ul{
-    width:8094px;
     position:relative;
     overflow: hidden;
     padding: 0;
@@ -241,16 +240,16 @@ table{
     font-size: 14px;
     width: 56px;
 }
-.cooperation.btn.btn-success {
+.cooperation .btns .btn-success {
     background-color: #419e27;
 }
-.cooperation.btn.btn-success:hover {
+.cooperation .btns .btn-success:hover {
     background-color: #207109;
 }
-.cooperation.btn.btn-primary {
+.cooperation .btns .btn-primary {
     background-color: #5ccbff;
 }
-.cooperation.btn.btn-primary:hover {
+.cooperation .btns .btn-primary:hover {
     background-color: #1b96cf;
 }
 
@@ -297,6 +296,9 @@ table{
     background-color: #5ccbff;
     border-radius:0;
     border: none;
+}
+.product .btn-primary:hover{
+    background-color: #1b96cf;
 }
 .product .prev {
     display: block;

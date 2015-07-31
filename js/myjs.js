@@ -4,22 +4,24 @@
 
 //点击next按钮
 function clickNext(){
+    var a=$(window).width();
     var x=$(".pic ul").css("left");
     x = x.substring(0, x.indexOf('px'));
-    if(x=="-6745"){
-        $(".pic ul").css({left:0}).animate({left:-1349},400);
+    if(x=="-5"*a){
+        $(".pic ul").css({left:0}).animate({left:-a},400);
     }else{
-        $(".pic ul").animate({left:x-"1349"},400);
+        $(".pic ul").animate({left:x-a},400);
     }
 }
 //点击prev按钮
 function clickPrev(){
+    var a=$(window).width();
     var x=$(".pic ul").css("left");
     x = x.substring(0, x.indexOf('px'));
     if(x=="0"){
-        $(".pic ul").css({left:-6745}).animate({left:-5396},400);
+        $(".pic ul").css({left:-5*a}).animate({left:-4*a},400);
     }else{
-        $(".pic ul").animate({left:-(-x-1349)},400);
+        $(".pic ul").animate({left:-(-x-a)},400);
     }
 }
 //设置自动轮播时间

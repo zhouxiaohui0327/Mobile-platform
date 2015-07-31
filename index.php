@@ -1,41 +1,39 @@
+
 <!DOCTYPE html>
 <html>
 <head lang="zh-cn">
     <meta charset="UTF-8">
     <title>移动合作平台 - 百度APP付费推广、APP换量合作、移动搜索分成Mcp.baidu.com</title>
-    <link rel="stylesheet"  href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
+
+    <link rel="stylesheet" href="css/ideal-image-slider.css">
+    <link rel="stylesheet" href="css/default.css">
+
     <script src="js/jquery-2.1.4.js"></script>
-    <script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<!--    <script src="js/jquery.SuperSlide.2.1.1.js"></script>-->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/myjs.js"></script>
+
+    <script src="js/ideal-image-slider.min.js"></script>
 </head>
 <body onload="slideUp()">
-<div class="header container-fluid">
-    <div class="w-1000 container">
-        <a class="logo" href="/" title="百度移动合作平台"></a>
-        <div class="nav">
-            <a class="active" href="/" title="首页">首页</a>
-            <a href="pay.html" title="广点通">广点通</a>
-            <a href="swap.html" title="数据优化">数据优化</a>
-            <a href="javascript:;" title="ASO">ASO</a>
-            <a href="javascript:;" title="广告联盟">广告联盟</a>
-        </div>
-        <div class="user">
-            <div class="login">
-                <a class="btn btn-success" id="login" href="javascript:;" title="登录">登录</a>
-                <a class="btn btn-primary" href="http://passport.baidu.com/?reg&tpl=exc&u=http%3A%2F%2Fmcp.baidu.com%2Ffront%2Findex" title="注册">注册</a>
-            </div>
-        </div>
-    </div>
-</div>
+<?php
+include 'header.php';
+?>
+<script>
+    $(".header .nav a").eq(0).addClass("active");
+    $(document).ready(function(){
+       var  a=$(document.body).width();
+       var  b=6*a;
+        $(".pic ul").css({width:b});
+        $(".pic li").css({width:a});
+        $(".pic ul").css({left:-a});
+    })
+</script>
 <div class="banner container-fluid">
-    <div class="pic">
-        <!--<div class="tempWrap" style="position:relative;width: 1349px;left:0">-->
-            <ul style="left: -1349px">
-                <li style="background: url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)">
-                    <a href=""><img src="images/-banner-5593b87d3ffdb.jpeg" alt=""/></a>
-                </li>
+    <div class="pic container-fluid">
+            <ul>
                 <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)">
                     <a href=""><img src="images/-banner-5593d76716357.jpeg" alt=""/></a>
                 </li>
@@ -50,13 +48,26 @@
                 </li>
                 <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)">
                     <a href=""><img src="images/-banner-5593d76716357.jpeg" alt=""/></a>
+                </li>
+                <li style="background: url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)">
+                    <a href=""><img src="images/-banner-5593b87d3ffdb.jpeg" alt=""/></a>
                 </li>
             </ul>
-        <!--</div>-->
         <a href="javascript:clickPrev()" class="prev"></a>
         <a  onclick="clickNext()" class="next"></a>
     </div>
-
+<!--    <div class="dowebok">-->
+<!--        <div id="slider">-->
+<!--            <a href="http://www.dowebok.com"><img src="images/-banner-5593d76716357.jpeg" data-src-2x="images/-banner-5593d76716357@2x.jpg" alt=""></a>-->
+<!--            <a href="http://www.dowebok.com"><img data-src="images/-banner-5593b87d3ffdb.jpeg" data-src-2x="images/-banner-5593b87d3ffdb@2x.jpg" alt=""></a>-->
+<!--            <a href="http://www.dowebok.com"><img data-src="images/-banner-5593d76716357.jpeg" data-src-2x="images/-banner-5593d76716357@2x.jpg" alt=""></a>-->
+<!--            <a href="http://www.dowebok.com"><img data-src="images/-banner-5593b87d3ffdb.jpeg" data-src-2x="images/-banner-5593b87d3ffdb@2x.jpg" alt=""></a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <script>-->
+<!--        x=new IdealImageSlider.Slider('#slider');-->
+<!--            x.start();-->
+<!--    </script>-->
     <div class="notice container-fluid ">
         <div class="w-1000 container">
             <div class="tempWrap"  style="overflow: hidden;position: relative;height: 52px">
@@ -139,11 +150,11 @@
                     <ul class="clearfix" style="width:2500px;position: relative;overflow: hidden;padding: 0;left:-250px">
                         <li style="float:left;width: 190px">
                             <h4>手机端-百度手机卫士</h4>
-                            <a href="introduce.html" class="icon" title="手机端-百度手机卫士">
+                            <a href="introduce.php" class="icon" title="手机端-百度手机卫士">
                                 <img src="images/-product-55713fbcd210f.png" alt=""/>
                             </a>
                             <p class="info">超过一亿人使用的手机安全工具，更快更安心！</p>
-                            <a href="" class="btn btn-primary">了解详情>></a>
+                            <a href="introduce.php" class="btn btn-primary">了解详情>></a>
                         </li>
                         <li style="float:left;width: 190px">
                             <h4>手机端-手机百度</h4>
@@ -179,11 +190,11 @@
                         </li>
                         <li style="float:left;width: 190px">
                             <h4>手机端-百度手机卫士</h4>
-                            <a href="introduce.html" class="icon" title="手机端-百度手机卫士">
+                            <a href="introduce.php" class="icon" title="手机端-百度手机卫士">
                                 <img src="images/-product-55713fbcd210f.png" alt=""/>
                             </a>
                             <p class="info">超过一亿人使用的手机安全工具，更快更安心！</p>
-                            <a href="" class="btn btn-primary">了解详情>></a>
+                            <a href="introduce.php" class="btn btn-primary">了解详情>></a>
                         </li>
                         <li style="float:left;width: 190px">
                             <h4>手机端-手机百度</h4>
@@ -226,76 +237,9 @@
         </div>
     </div>
 </div>
-<div class="footer container-fluid">
-    <ul class="w-1000 container clearfix">
-        <!--<li class="help">-->
-            <!--<h4><a href="" title="帮助中心">帮助中心</a></h4>-->
-            <!--<div class="list">-->
-                <!--<a href="account.html" title="账户管理" target="_blank">·账户管理</a>-->
-                <!--<a href="" title="违规与作弊" target="_blank">·违规与作弊</a>-->
-                <!--<a href="" title="推广与投放" target="_blank">·推广与投放</a>-->
-                <!--<a href="text.html" title="数据与支付" target="_blank">·数据与支付</a>-->
-            <!--</div>-->
-        <!--</li>-->
-        <li class="partners">
-            <h4><a href="" title="合作伙伴">合作伙伴</a></h4>
-            <div class="list">
-                <a href="" title="腾讯广点通" target="_blank">腾讯广点通</a>
-                <a href="" title="思美传媒" target="_blank">思美传媒</a>
-                <a href="" title="360手机应用市场" target="_blank">360手机应用市场</a>
-                <a href="" title="应用宝" target="_blank">应用宝</a>
-                <a href="" title="小米应用市场" target="_blank">小米应用市场</a>
-                <a href="" title="友盟" target="_blank">友盟</a>
-            </div>
-        </li>
-        <li class="link">
-            <h4><a href="" title="友情链接">友情链接</a></h4>
-            <div class="icon-list">
-                <a href="http://www.huawei.com/cn/"  target="_blank"><img src="images/friend_huawei.JPG" alt=""/></a>
-                <a href="http://www.10086.cn/" target="_blank"><img src="images/friend_10086.JPG" alt=""/></a>
-                <a href="http://www.apple.com/"  target="_blank"><img src="images/friend_apple.JPG" alt=""/></a>
-            </div>
-        </li>
-        <li class="tel">
-            <h4><a href="" title="联系我们">联系方式</a></h4>
-             <div>
-                 <p>邮箱：<a href=""></a></p>
-                 <p>QQ：</p>
-                 <p>电话：</p>
-             </div>
-        </li>
-        <li class="notice">
-            <div class="hd">
-                <a href="" class="active" title="最新公告">最新公告</a>
-                <a href="" target="_blank" title="行业报告">行业报告</a>
-            </div>
-
-
-            <div class="bd">
-                <ul class="">
-                    <li>
-                        <a href="" title="自助申请业务合作说明">·自助申请业务合作说明</a>
-                        <span>2014-06-12</span>
-                    </li>
-                </ul>
-                <ul class="in">
-                    <li><a href="" title="百度移动趋势报告：智能机人口红利终结 00后崛起" target="_blank">·百度移动趋势报告：智能机人口红利终结 00后崛起</a><span>2015-07-01</span></li>
-                    <li><a href="" title="百度移动分发报告2014H1" target="_blank">·百度移动分发报告2014H1</a><span>2015-07-01</span></li>
-                    <li><a href="" title="2014年中国智能硬件行业年度调研报告" target="_blank">·2014年中国智能硬件行业年度调研报告</a><span>2015-07-01</span></li>
-                    <li><a href="" title="《中国汽车行业网民搜索行为报告》" target="_blank">·《中国汽车行业网民搜索行为报告》</a><span>2015-07-01</span></li>
-                    <li><a href="" title="80、90后母婴产品用户行为分析报告" target="_blank">·80、90后母婴产品用户行为分析报告</a><span>2015-07-01</span></li>
-                    <li><a href="" title="更多" target="_blank">·更多</a></li>
-                </ul>
-            </div>
-        </li>
-    </ul>
-</div>
-
-<div class="copyright">
-    <p>Copyright ©2015版权所有 移动合作平台</p>
-    <p>Mobile Cooperation Platform （Mcp.baidu.com） All Rights Reserved. </p>
-    <p>移动运营管理部 <a href="http://www.miitbeian.gov.cn/" title="京ICP备证030173号" target="_blank">京ICP备证030173号</a></p>
-</div>
+<?php
+include "footer.php";
+?>
 
 </body>
 </html>

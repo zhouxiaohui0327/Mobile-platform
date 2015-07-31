@@ -13,24 +13,9 @@
     <script src="js/myjs.js"></script>
 </head>
 <body>
-<div class="header container-fluid">
-    <div class="w-1000 container">
-        <a class="logo" href="/" title="百度移动合作平台"></a>
-        <div class="nav">
-            <a href="index.html" title="首页">首页</a>
-            <a href="pay.html" title="付费推广">付费推广</a>
-            <a href="swap.html" title="换量推广">换量推广</a>
-            <a href="javascript:;" title="搜索分成">搜索分成</a>
-        </div>
-        <div class="user">
-            <div class="login">
-                <a class="btn btn-success" id="login" href="javascript:;" title="登录">登录</a>
-                <a class="btn btn-primary" href="http://passport.baidu.com/?reg&tpl=exc&u=http%3A%2F%2Fmcp.baidu.com%2Ffront%2Findex" title="注册">注册</a>
-            </div>
-        </div>
-    </div>
-</div>
-
+<?php
+include "header.php";
+?>
 <div class="content container-fluid">
     <div class="bg-grey container-fluid">
         <div class="clump w-1000 container">
@@ -59,8 +44,6 @@
             </div>
         </div>
     </div>
-
-
     <div class="bg-white container-fluid">
         <div class="clump w-1000 container">
             <ul class="extension clearfix">
@@ -86,11 +69,9 @@
                         </ul>
                     </div>
                 </li>
-
             </ul>
         </div>
     </div>
-
     <div class="bg-grey container-fluid">
         <div class="clump w-1000 container">
             <h3 class="title"> 业务详情</h3>
@@ -121,83 +102,20 @@
                     <div>
                         <h4>帮助中心</h4>
                         <ul class="business_list">
+                            <li><a href="account.php" title="账户管理">账户管理</a></li>
                             <li><a href="" title="违规与作弊">违规与作弊</a></li>
-                            <li><a href="" title="账户管理">账户管理</a></li>
                             <li><a href="" title="推广与投放">推广与投放</a></li>
-                            <li><a href="text.html" title="数据与支付">数据与支付</a></li>
+                            <li><a href="text.php" title="数据与支付">数据与支付</a></li>
                         </ul>
                     </div>
                 </li>
-
             </ul>
         </div>
     </div>
 </div>
-
-<div class="footer container-fluid">
-    <ul class="w-1000 container clearfix">
-        <li class="help">
-            <h4><a href="" title="帮助中心">帮助中心</a></h4>
-            <div class="list">
-                <a href="account.html" title="账户管理" target="_blank">·账户管理</a>
-                <a href="" title="违规与作弊" target="_blank">·违规与作弊</a>
-                <a href="" title="推广与投放" target="_blank">·推广与投放</a>
-                <a href="text.html" title="数据与支付" target="_blank">·数据与支付</a>
-            </div>
-        </li>
-        <li class="partners">
-            <h4><a href="" title="合作伙伴">合作伙伴</a></h4>
-            <div class="list">
-                <a href="" title="百度开放云" target="_blank">百度开放云</a>
-                <a href="" title="百度开发者平台" target="_blank">百度开发者平台</a>
-                <a href="" title="Api store" target="_blank">Api store</a>
-                <a href="" title="安卓市场" target="_blank">安卓市场</a>
-            </div>
-        </li>
-        <li class="link">
-            <h4><a href="" title="友情链接">友情链接</a></h4>
-            <div class="icon-list">
-                <a href="http://www.huawei.com/cn/"  target="_blank"><img src="images/friend_huawei.JPG" alt=""/></a>
-                <a href="http://www.10086.cn/" target="_blank"><img src="images/friend_10086.JPG" alt=""/></a>
-                <a href="http://www.apple.com/"  target="_blank"><img src="images/friend_apple.JPG" alt=""/></a>
-            </div>
-        </li>
-        <li class="tel">
-            <h4><a href="" title="联系我们">联系我们</a></h4>
-            <div><p>邮箱：<a href="">mbu-ops-tg@baidu.com</a></p></div>
-        </li>
-        <li class="notice">
-            <div class="hd">
-                <a href="" class="active" title="最新公告">最新公告</a>
-                <a href="" target="_blank" title="行业报告">行业报告</a>
-            </div>
-
-
-            <div class="bd">
-                <ul class="">
-                    <li>
-                        <a href="" title="自助申请业务合作说明">·自助申请业务合作说明</a>
-                        <span>2014-06-12</span>
-                    </li>
-                </ul>
-                <ul class="in">
-                    <li><a href="" title="百度移动趋势报告：智能机人口红利终结 00后崛起" target="_blank">·百度移动趋势报告：智能机人口红利终结 00后崛起</a><span>2015-07-01</span></li>
-                    <li><a href="" title="百度移动分发报告2014H1" target="_blank">·百度移动分发报告2014H1</a><span>2015-07-01</span></li>
-                    <li><a href="" title="2014年中国智能硬件行业年度调研报告" target="_blank">·2014年中国智能硬件行业年度调研报告</a><span>2015-07-01</span></li>
-                    <li><a href="" title="《中国汽车行业网民搜索行为报告》" target="_blank">·《中国汽车行业网民搜索行为报告》</a><span>2015-07-01</span></li>
-                    <li><a href="" title="80、90后母婴产品用户行为分析报告" target="_blank">·80、90后母婴产品用户行为分析报告</a><span>2015-07-01</span></li>
-                    <li><a href="" title="更多" target="_blank">·更多</a></li>
-                </ul>
-            </div>
-        </li>
-    </ul>
-</div>
-
-<div class="copyright">
-    <p>Copyright ©2015版权所有 移动合作平台</p>
-    <p>Mobile Cooperation Platform （Mcp.baidu.com） All Rights Reserved. </p>
-    <p>移动运营管理部 <a href="http://www.miitbeian.gov.cn/" title="京ICP备证030173号" target="_blank">京ICP备证030173号</a></p>
-</div>
+<?php
+include "footer.php";
+?>
 
 </body>
 </html>
