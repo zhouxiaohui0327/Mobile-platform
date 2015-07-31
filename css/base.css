@@ -170,6 +170,10 @@ table{
 .banner .pic .next:hover{
     background-position: -65px -69px;
 }
+.carousel-control {
+    line-height: 300px;
+    font-size: 65px;
+}
 .banner .notice{
     background-color: #232c3a;
     color:#bdbdbd;

@@ -16,6 +16,8 @@
     <script src="js/myjs.js"></script>
 
     <script src="js/ideal-image-slider.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="http://cdn.bootcss.com/holder/2.0/holder.min.js"></script>
 </head>
 <body onload="slideUp()">
 <?php
@@ -25,37 +27,41 @@ include 'header.php';
     $(".header .nav a").eq(0).addClass("active");
     $(document).ready(function(){
        var  a=$(document.body).width();
-       var  b=6*a;
-        $(".pic ul").css({width:b});
-        $(".pic li").css({width:a});
-        $(".pic ul").css({left:-a});
+//       var  b=6*a;
+//        $(".pic ul").css({width:b});
+//        $(".pic li").css({width:a});
+//        $(".pic ul").css({left:-a});
+        $(".carousel-inner img").width(a);
     })
 </script>
 <div class="banner container-fluid">
-    <div class="pic container-fluid">
-            <ul>
-                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)">
-                    <a href=""><img src="images/-banner-5593d76716357.jpeg" alt=""/></a>
-                </li>
-                <li style="background: url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)">
-                    <a href=""><img src="images/-banner-5593b87d3ffdb.jpeg" alt=""/></a>
-                </li>
-                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)">
-                    <a href=""><img src="images/-banner-5593d76716357.jpeg" alt=""/></a>
-                </li>
-                <li style="background: url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)">
-                    <a href=""><img src="images/-banner-5593b87d3ffdb.jpeg" alt=""/></a>
-                </li>
-                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)">
-                    <a href=""><img src="images/-banner-5593d76716357.jpeg" alt=""/></a>
-                </li>
-                <li style="background: url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)">
-                    <a href=""><img src="images/-banner-5593b87d3ffdb.jpeg" alt=""/></a>
-                </li>
-            </ul>
-        <a href="javascript:clickPrev()" class="prev"></a>
-        <a  onclick="clickNext()" class="next"></a>
-    </div>
+<!--    <div class="pic container-fluid">-->
+<!--            <ul>-->
+<!--                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)">-->
+<!--                    <a href=""><img src="images/-banner-5593d76716357.jpeg" alt=""/></a>-->
+<!--                </li>-->
+<!--                <li style="background: url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)">-->
+<!--                    <a href=""><img src="images/-banner-5593b87d3ffdb.jpeg" alt=""/></a>-->
+<!--                </li>-->
+<!--                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)">-->
+<!--                    <a href=""><img src="images/-banner-5593d76716357.jpeg" alt=""/></a>-->
+<!--                </li>-->
+<!--                <li style="background: url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)">-->
+<!--                    <a href=""><img src="images/-banner-5593b87d3ffdb.jpeg" alt=""/></a>-->
+<!--                </li>-->
+<!--                <li style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)">-->
+<!--                    <a href=""><img src="images/-banner-5593d76716357.jpeg" alt=""/></a>-->
+<!--                </li>-->
+<!--                <li style="background: url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)">-->
+<!--                    <a href=""><img src="images/-banner-5593b87d3ffdb.jpeg" alt=""/></a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        <a href="javascript:clickPrev()" class="prev"></a>-->
+<!--        <a  onclick="clickNext()" class="next"></a>-->
+<!--    </div>-->
+
+
+
 <!--    <div class="dowebok">-->
 <!--        <div id="slider">-->
 <!--            <a href="http://www.dowebok.com"><img src="images/-banner-5593d76716357.jpeg" data-src-2x="images/-banner-5593d76716357@2x.jpg" alt=""></a>-->
@@ -68,6 +74,29 @@ include 'header.php';
 <!--        x=new IdealImageSlider.Slider('#slider');-->
 <!--            x.start();-->
 <!--    </script>-->
+
+
+
+    <div id="myCarousel" class="carousel slide container-fluid">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner container">
+            <div class="active item"><a href="" ><img src="images/-banner-5593d76716357.jpeg"  alt=""></a></div>
+            <div class="item"><img src="images/-banner-5593b87d3ffdb.jpeg"  alt=""></div>
+            <div class="item"><img src="images/-banner-5593d76716357.jpeg"  alt=""></div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+    <script>
+        $('.carousel').carousel();
+    </script>
+
     <div class="notice container-fluid ">
         <div class="w-1000 container">
             <div class="tempWrap"  style="overflow: hidden;position: relative;height: 52px">
