@@ -25,14 +25,14 @@ include 'header.php';
 ?>
 <script>
     $(".header .nav a").eq(0).addClass("active");
-    $(document).ready(function(){
-       var  a=$(document.body).width();
+//    $(document).ready(function(){
+//       var  a=$(document.body).width();
 //       var  b=6*a;
 //        $(".pic ul").css({width:b});
 //        $(".pic li").css({width:a});
 //        $(".pic ul").css({left:-a});
-        $(".carousel-inner img").width(a);
-    })
+//        $(".carousel-inner img").width(a);
+//    })
 </script>
 <div class="banner container-fluid">
 <!--    <div class="pic container-fluid">-->
@@ -85,16 +85,16 @@ include 'header.php';
         </ol>
         <!-- Carousel items -->
         <div class="carousel-inner container">
-            <div class="active item"><a href="" ><img src="images/-banner-5593d76716357.jpeg"  alt=""></a></div>
-            <div class="item"><img src="images/-banner-5593b87d3ffdb.jpeg"  alt=""></div>
-            <div class="item"><img src="images/-banner-5593d76716357.jpeg"  alt=""></div>
+            <div  style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)" class="active item"><img  src="images/-banner-5593d76716357.jpeg"  alt=""></div>
+            <div style="background: url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)" class="item"><img src="images/-banner-5593b87d3ffdb.jpeg"  alt=""></div>
+            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)"  class="item"><img src="images/-banner-5593d76716357.jpeg"  alt=""></div>
         </div>
         <!-- Carousel nav -->
         <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
     <script>
-        $('.carousel').carousel();
+        $('.carousel').carousel({interval:3000});
     </script>
 
     <div class="notice container-fluid ">

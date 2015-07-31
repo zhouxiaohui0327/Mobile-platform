@@ -146,6 +146,8 @@ table{
     float:left;
     width: 1394px;
 }
+
+
 .banner .pic .prev{
     display:block;
     position:absolute;
@@ -170,10 +172,19 @@ table{
 .banner .pic .next:hover{
     background-position: -65px -69px;
 }
+
+
+
+.carousel-inner img{
+    margin: 0 auto;
+}
 .carousel-control {
-    line-height: 300px;
+    line-height: 370px;
     font-size: 65px;
 }
+
+
+
 .banner .notice{
     background-color: #232c3a;
     color:#bdbdbd;
