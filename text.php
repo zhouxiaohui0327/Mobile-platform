@@ -15,7 +15,7 @@
 <?php
 include "header.php";
 ?>
-<div class="pay-body container-fluid">
+<div class="pay-body container-fluid" style="padding:40px 0">
     <div class="w-1000 container">
         <div class="list-left">
             <div class="temp">

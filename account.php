@@ -15,7 +15,7 @@
 <?php
 include "header.php";
 ?>
-<div class="pay-body container-fluid">
+<div class="pay-body container-fluid" style="padding:40px 0">
     <div class="w-1000 container">
         <div class="list-left">
             <div class="temp">
@@ -42,7 +42,7 @@ include "header.php";
             </div>
         </div>
         <div class="body-right bg-white">
-            <h4 class="title">数据与支付</h4>
+            <h4 class="title">账户管理</h4>
             <div class="text-body" style="padding-bottom: 170px;">
                 <h2>1.  &nbsp &nbsp    如何修改个人资料？</h2>
                 <p>请联系您的所属渠道商务经理，提交您的修改信息进行修改。如未能及时联系上，请说明修改原因发送相应内容至邮箱：mbu-ops-tg@baidu.com，我们也会及时处理。</p>
