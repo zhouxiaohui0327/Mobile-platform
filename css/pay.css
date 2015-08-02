@@ -1,4 +1,4 @@
-.bg-white .explain{
+.bg-grey .explain{
     margin: 30px auto 0;
     width: 820px;
     line-height: 30px;
@@ -6,7 +6,32 @@
     font-size: 16px;
     text-indent: 2em;
 }
+.bg-grey .explain_1{
+     margin: 10px 140px 0;
+     width: 820px;
+     color: #464646;
+     font-size: 16px;
+ }
+.bg-grey .explain_2{
+    margin: 10px 160px 0;
+    width: 820px;
+    color: #464646;
+    font-size: 16px;
+}
+.bg-grey .explain_1 span , .bg-grey .explain_2 span{
+    font-size: 20px;
+    font-family: wingdings;
+}
 
+.bg-grey h5{
+    margin: 30px auto 10px;
+    line-height: 30px;
+    font-size: 20px;
+    text-indent: 90px;
+    color: black;
+    font-weight: 500;
+
+}
 .bg-grey .worth li{
     float: left;
     margin: 0 45px;

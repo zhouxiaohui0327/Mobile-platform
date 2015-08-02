@@ -16,57 +16,55 @@
 <?php
 include "header.php";
 ?>
-<script>
-    $(".header .nav a").eq(1).addClass("active");
-</script>
+
 
 <div class="banner container-fluid">
-        <div id="myCarousel" class="carousel slide container-fluid">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
-            </ol>
-            <!-- Carousel items -->
-            <div class="carousel-inner container">
-                <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)" class="active item"><img  src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
-                <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)" class="item"><img src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
-                <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)"  class="item"><img src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
-                <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)"  class="item"><img src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
-                <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)" class=" item"><img src="images/-banner-kuweiwangluokeji.jpg"  alt=""></div>
-            </div>
-            <!-- Carousel nav -->
-            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    <div id="myCarousel" class="carousel slide container-fluid">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner container">
+            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)" class="active item"><img  src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
+            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)" class="item"><img src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
+            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)"  class="item"><img src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
+            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)"  class="item"><img src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
+            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)" class=" item"><img src="images/-banner-kuweiwangluokeji.jpg"  alt=""></div>
         </div>
-        <script>
-            $('.carousel').carousel({interval:2500});
-        </script>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+    <script>
+        $('.carousel').carousel({interval:2500});
+    </script>
 
     <div class="notice container-fluid ">
         <div class="w-1000 container">
             <div class="tempWrap"  style="overflow: hidden;position: relative;height: 52px">
                 <ul style="height:208px;position:relative;padding:0;margin: 0;top: 0">
                     <li class="clone"style="height:52px;">
-<!--                        <a href="" title="新版上线，欢迎试用！" >-->
-<!--                            新版上线，欢迎试用！-->
-<!--                        </a>-->
-<!--                        <span>2015-07-01</span>-->
+                        <!--                        <a href="" title="新版上线，欢迎试用！" >-->
+                        <!--                            新版上线，欢迎试用！-->
+                        <!--                        </a>-->
+                        <!--                        <span>2015-07-01</span>-->
                     </li>
-<!--                    <li class="clone" style="height:52px;">-->
-<!--                        <a href="" title="新版上线，欢迎试用！" >-->
-<!--                            新版上线，欢迎试用！-->
-<!--                        </a>-->
-<!--                        <span>2014-03-26</span>-->
-<!--                    </li>-->
-<!--                    <li style="height:52px;">-->
-<!--                        <a href="" title="新版上线，欢迎试用！" >-->
-<!--                            新版上线，欢迎试用！-->
-<!--                        </a>-->
-<!--                        <span>2015-07-01</span>-->
-<!--                    </li>-->
+                    <!--                    <li class="clone" style="height:52px;">-->
+                    <!--                        <a href="" title="新版上线，欢迎试用！" >-->
+                    <!--                            新版上线，欢迎试用！-->
+                    <!--                        </a>-->
+                    <!--                        <span>2014-03-26</span>-->
+                    <!--                    </li>-->
+                    <!--                    <li style="height:52px;">-->
+                    <!--                        <a href="" title="新版上线，欢迎试用！" >-->
+                    <!--                            新版上线，欢迎试用！-->
+                    <!--                        </a>-->
+                    <!--                        <span>2015-07-01</span>-->
+                    <!--                    </li>-->
                 </ul>
             </div>
         </div>
@@ -76,60 +74,59 @@ include "header.php";
     <div class="bg-grey container-fluid">
         <div class="clump w-1000 container">
             <h3 class="title">业务说明</h3>
-            <p class="explain">广点通是由腾讯公司推出的效果广告系统。它是国内领先的效果广告营销平台，依托于腾讯海量优质流量资源，给广告主提供跨平台、跨终端的网络推广方案，并利用腾讯大数据处理算法实现成本可控、效益可观、智能投放的互联网效果广告平台。</p>
-            <div class="w-1000 container" style="text-align: center"><img style="width: 500px" src="images/guandiantong.png" alt=""/></div>
             <h5>产品优势</h5>
-            <div class="w-1000 container" style="text-align: center"><img style="width: 500px" src="images/guangdiantong_2.png" alt=""/></div>
-            <p class="explain_1" style="margin-top: 30px"><span>Ø</span>&nbsp&nbsp两年经验专业优化团队。</p>
-            <p class="explain_1"><span>Ø</span>&nbsp&nbsp协助客户进行开户，申请广告位置。</p>
-            <p class="explain_1"><span>Ø</span>&nbsp&nbsp客户产品分析，设计精准投放计划。</p>
-            <p class="explain_1"><span>Ø</span>&nbsp&nbsp客户跟踪，实时分析，数据优化，提升效果。</p>
+            <p class="explain_1" style="margin-top: 30px"><span>Ø</span>&nbsp&nbsp代运营：帮助一些希望做电商的传统企业开展网上销售，目前代运营包括各种各样的方式：从建站、推广、物流、客服、仓储等领域都有相关的公司涉及。百花齐放，百家争鸣。当然，也包括一些为电子商务公司提供服务的专业机构。</p>
+            <p class="explain_1"><span>Ø</span>&nbsp&nbsp现在很多的app出生，但是却有一个很大的问题也随之出现。出生却不知道怎么去养大！产品出来，却不知道自己能做什么，该做什么？</p>
+            <h5>我们能做什么</h5>
+            <p class="explain_1"><span>Ø</span>&nbsp&nbsp产品分析，分析产品的属性，需求。针对其产品的需求去做一个详细的运营计划。再根据反馈的数据，不断的优化与提升。</p>
+            <p class="explain_1"><span>Ø</span>&nbsp&nbsp例：产品需求一个用户数量级。但市场这么多，却不知道怎么入手与选择。</p>
+            <p class="explain_1"><span>Ø</span>&nbsp&nbsp我们会针对每个市场的特点结合产品去分析，那些市场是符合需求的，最后去做一个组合的投放计划，达成预期希望的效果。</p>
 
         </div>
     </div>
 
 
-<!--    <div class="bg-grey container-fluid">-->
-<!--        <div class="clump w-1000 container">-->
-<!--            <h3 class="title">业务价值点</h3>-->
-<!--            <ul class="worth list-unstyled clearfix">-->
-<!--                <li>-->
-<!--                    <img src="images/icon_14.png" alt=""/>-->
-<!--                    <h4> 政策稳定</h4>-->
-<!--                    <div class="info">-->
-<!--                        百度系产品-->
-<!--                        <br/>-->
-<!--                        付费推广政策稳定，范本合同政策统一；-->
-<!--                    </div>-->
-<!---->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <img src="images/icon_15.png" alt=""/>-->
-<!--                    <h4>流程简单</h4>-->
-<!--                    <div class="info">-->
-<!--                        完成认证，推广申请审核通过后即可获取渠道包推广；-->
-<!--                    </div>-->
-<!---->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <img src="images/icon_16.png" alt=""/>-->
-<!--                    <h4>完全透明</h4>-->
-<!--                    <div class="info">-->
-<!--                        实时反作弊，激活数据隔天可查看；-->
-<!--                    </div>-->
-<!---->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <img src="images/icon_17.png" alt=""/>-->
-<!--                    <h4>结算及时</h4>-->
-<!--                    <div class="info">-->
-<!--                        按月结算，收到发票后即立即打款；-->
-<!--                    </div>-->
-<!---->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </div>-->
+    <!--    <div class="bg-grey container-fluid">-->
+    <!--        <div class="clump w-1000 container">-->
+    <!--            <h3 class="title">业务价值点</h3>-->
+    <!--            <ul class="worth list-unstyled clearfix">-->
+    <!--                <li>-->
+    <!--                    <img src="images/icon_14.png" alt=""/>-->
+    <!--                    <h4> 政策稳定</h4>-->
+    <!--                    <div class="info">-->
+    <!--                        百度系产品-->
+    <!--                        <br/>-->
+    <!--                        付费推广政策稳定，范本合同政策统一；-->
+    <!--                    </div>-->
+    <!---->
+    <!--                </li>-->
+    <!--                <li>-->
+    <!--                    <img src="images/icon_15.png" alt=""/>-->
+    <!--                    <h4>流程简单</h4>-->
+    <!--                    <div class="info">-->
+    <!--                        完成认证，推广申请审核通过后即可获取渠道包推广；-->
+    <!--                    </div>-->
+    <!---->
+    <!--                </li>-->
+    <!--                <li>-->
+    <!--                    <img src="images/icon_16.png" alt=""/>-->
+    <!--                    <h4>完全透明</h4>-->
+    <!--                    <div class="info">-->
+    <!--                        实时反作弊，激活数据隔天可查看；-->
+    <!--                    </div>-->
+    <!---->
+    <!--                </li>-->
+    <!--                <li>-->
+    <!--                    <img src="images/icon_17.png" alt=""/>-->
+    <!--                    <h4>结算及时</h4>-->
+    <!--                    <div class="info">-->
+    <!--                        按月结算，收到发票后即立即打款；-->
+    <!--                    </div>-->
+    <!---->
+    <!--                </li>-->
+    <!--            </ul>-->
+    <!--        </div>-->
+    <!--    </div>-->
     <div class="bg-white container-fluid">
         <div class="clump w-1000 container">
             <h3 class="title">优质产品</h3>
