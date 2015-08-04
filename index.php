@@ -12,48 +12,28 @@
     <script src="http://cdn.bootcss.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <script src="http://cdn.bootcss.com/holder/2.0/holder.min.js"></script>
 </head>
-<body onload="slideUp()">
+<body>
 <?php
 include 'header.php';
 ?>
+
+<?php
+include "carousel.php";
+?>
 <script>
     $(".header .nav a").eq(0).addClass("active");
+    $(".carousel-inner .item").eq(0).addClass("active");
 </script>
-<div class="banner container-fluid">
-    <div id="myCarousel" class="carousel slide container-fluid">
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-        </ol>
-        <!-- Carousel items -->
-        <div class="carousel-inner container">
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)" class="active item"><img src="images/-banner-kuweiwangluokeji.jpg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)" class="item"><img  src="images/-banner-5593d76716357.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)"  class="item"><img src="images/-banner-5593d76716357.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)" class="item"><img src="images/-banner-5593b87d3ffdb.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)"  class="item"><img src="images/-banner-5593d76716357.jpeg"  alt=""></div>
-        </div>
-        <!-- Carousel nav -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div>
-    <script>
-        $('.carousel').carousel({interval:2500});
-    </script>
 
-    <div class="notice container-fluid ">
-        <div class="w-1000 container">
-            <div class="tempWrap"  style="overflow: hidden;position: relative;height: 52px">
-                <ul style="height:208px;position:relative;padding:0;margin: 0;top: 0">
-                    <li class="clone" style="height:52px;">
+<!--    <div class="notice container-fluid ">-->
+<!--        <div class="w-1000 container">-->
+<!--                <ul style="height:208px;position:relative;padding:0;margin: 0;top: 0">-->
+<!--                    <li class="clone" style="height:52px;">-->
 <!--                        <a href="" title="新版上线，欢迎试用！" >-->
 <!--                            新版上线，欢迎试用！-->
 <!--                        </a>-->
 <!--                        <span>2015-07-01</span>-->
-                    </li>
+<!--                    </li>-->
 <!--                    <li class="clone" style="height:52px;">-->
 <!--                        <a href="" title="新版上线，欢迎试用！" >-->
 <!--                            新版上线，欢迎试用！-->
@@ -66,11 +46,9 @@ include 'header.php';
 <!--                        </a>-->
 <!--                        <span>2015-07-01</span>-->
 <!--                    </li>-->
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+<!--                </ul>-->
+<!--        </div>-->
+<!--    </div>-->
 <div class="content container-fluid">
 <!--    <div class="bg-white container-fluid">-->
 <!--        <div class="clump w-1000 container">-->
@@ -128,7 +106,7 @@ include 'header.php';
                             <a href="operation.php" class="icon" title="代运营">
                                 <img src="images/-product-55713fbcd210f.png" alt=""/>
                             </a>
-                            <p class="info">产品分析，渠道建议，资源覆盖广，投放精准</p>
+                            <p class="info">定制化推广服务商，精准投放的倡导者，经验丰富的代运营团队</p>
                             <a href="operation.php" class="btn btn-primary">详情</a>
                         </li>
                         <li style="float:left;width: 190px">
@@ -136,7 +114,7 @@ include 'header.php';
                             <a href="pay.php" class="icon" title="广点通">
                                 <img src="images/-product-556837e18f415.png" alt=""/>
                             </a>
-                            <p class="info">定制化推广服务商，精准投放的倡导者，经验丰富的代运营团队</p>
+                            <p class="info">产品分析，渠道建议，资源覆盖广，投放精准！</p>
                             <a href="pay.php" class="btn btn-primary">详情</a>
                         </li>
                         <li style="float:left;width: 190px">
@@ -152,7 +130,7 @@ include 'header.php';
                             <a href="ASO.php" class="icon" title="ASO">
                                 <img src="images/-product-557f98c86d33e.png" alt=""/>
                             </a>
-                            <p class="info">协助新产品在应用市场初期的下载，评论优化</p>
+                            <p class="info">针对苹果市场提升竞争力，专业的ASO团队</p>
                             <a href="ASO.php" class="btn btn-primary">详情</a>
                         </li>
                         <li style="float:left;width: 190px">
@@ -160,7 +138,7 @@ include 'header.php';
                             <a href="market.php" class="icon" title="各大应用市场">
                                 <img src="images/-product-5568381099df1.png" alt=""/>
                             </a>
-                            <p class="info">针对苹果市场提升竞争力，专业的ASO团队</p>
+                            <p class="info">协助新产品在应用市场初期的下载，评论优化</p>
                             <a href="market.php" class="btn btn-primary">详情</a>
                         </li>
                         <li style="float:left;width: 190px">
@@ -168,7 +146,7 @@ include 'header.php';
                             <a href="operation.php" class="icon" title="代运营">
                                 <img src="images/-product-55713fbcd210f.png" alt=""/>
                             </a>
-                            <p class="info">产品分析，渠道建议，资源覆盖广，投放精准！</p>
+                            <p class="info">定制化推广服务商，精准投放的倡导者，经验丰富的代运营团队</p>
                             <a href="operation.php" class="btn btn-primary">详情</a>
                         </li>
                         <li style="float:left;width: 190px">
@@ -176,7 +154,7 @@ include 'header.php';
                             <a href="pay.php" class="icon" title="广点通">
                                 <img src="images/-product-556837e18f415.png" alt=""/>
                             </a>
-                            <p class="info">定制化推广服务商，精准投放的倡导者，经验丰富的代运营团队</p>
+                            <p class="info">产品分析，渠道建议，资源覆盖广，投放精准！</p>
                             <a href="pay.php" class="btn btn-primary">详情</a>
                         </li>
                         <li style="float:left;width: 190px">
@@ -192,7 +170,7 @@ include 'header.php';
                             <a href="ASO.php" class="icon" title="ASO">
                                 <img src="images/-product-557f98c86d33e.png" alt=""/>
                             </a>
-                            <p class="info">协助新产品在应用市场初期的下载，评论优化</p>
+                            <p class="info">针对苹果市场提升竞争力，专业的ASO团队</p>
                             <a href="ASO.php" class="btn btn-primary">详情</a>
                         </li>
                         <li style="float:left;width: 190px">
@@ -200,7 +178,7 @@ include 'header.php';
                             <a href="market.php" class="icon" title="各大应用市场">
                                 <img src="images/-product-5568381099df1.png" alt=""/>
                             </a>
-                            <p class="info">针对苹果市场提升竞争力，专业的ASO团队</p>
+                            <p class="info">协助新产品在应用市场初期的下载，评论优化</p>
                             <a href="market.php" class="btn btn-primary">详情</a>
                         </li>
                     </ul>

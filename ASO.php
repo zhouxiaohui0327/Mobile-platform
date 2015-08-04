@@ -12,49 +12,27 @@
     <script src="http://cdn.bootcss.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <script src="http://cdn.bootcss.com/holder/2.0/holder.min.js"></script>
 </head>
-<body onload="slideUp()">
+<body>
 <?php
 include "header.php";
 ?>
+<?php
+include "carousel.php";
+?>
 <script>
     $(".header .nav a").eq(3).addClass("active");
+    $(".carousel-inner .item").eq(2).addClass("active");
 </script>
-
-<div class="banner container-fluid">
-    <div id="myCarousel" class="carousel slide container-fluid">
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-        </ol>
-        <!-- Carousel items -->
-        <div class="carousel-inner container">
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)" class="active item"><img  src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)" class="item"><img src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)"  class="item"><img src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)"  class="item"><img src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8ecca26d.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:WDgYqU4XKC5s%2FADvx7yWbcLd6Wg%3D)"  class="item"><img src="images/-banner-5593b8e83a788.jpeg"  alt=""></div>
-        </div>
-        <!-- Carousel nav -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div>
-    <script>
-        $('.carousel').carousel({interval:2500});
-    </script>
-
-    <div class="notice container-fluid ">
-        <div class="w-1000 container">
-            <div class="tempWrap"  style="overflow: hidden;position: relative;height: 52px">
-                <ul style="height:208px;position:relative;padding:0;margin: 0;top: 0">
-                    <li class="clone"style="height:52px;">
+<!--    <div class="notice container-fluid ">-->
+<!--        <div class="w-1000 container">-->
+<!--            <div class="tempWrap"  style="overflow: hidden;position: relative;height: 52px">-->
+<!--                <ul style="height:208px;position:relative;padding:0;margin: 0;top: 0">-->
+<!--                    <li class="clone"style="height:52px;">-->
                         <!--                        <a href="" title="新版上线，欢迎试用！" >-->
                         <!--                            新版上线，欢迎试用！-->
                         <!--                        </a>-->
                         <!--                        <span>2015-07-01</span>-->
-                    </li>
+<!--                    </li>-->
                     <!--                    <li class="clone" style="height:52px;">-->
                     <!--                        <a href="" title="新版上线，欢迎试用！" >-->
                     <!--                            新版上线，欢迎试用！-->
@@ -67,11 +45,10 @@ include "header.php";
                     <!--                        </a>-->
                     <!--                        <span>2015-07-01</span>-->
                     <!--                    </li>-->
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 <div class="content container-fluid">
     <div class="bg-grey container-fluid">
         <div class="clump w-1000 container">
@@ -93,6 +70,9 @@ include "header.php";
             <p class="explain_1" style="color:black;font-weight: 600"><span>Ø</span>&nbsp&nbsp下载量的优化</p>
             <p class="explain_2"><span>●</span>&nbsp用户数量、用户活跃度、短期用户留存比，虽然不像刷下载那么简单，但通过其他营销手段的配合，也能提升巨大的效果</p>
             <p class="explain_2"><span>●</span>&nbsp建议：APP是重要指标，提供相对较多的用户下载，是排名的必要和优先的前提，苹果会审核下载量的真实有效性。</p>
+            <h5>Appstore市场的ASO</h5>
+            <p class="explain_1" style="margin-top: 30px"><span>Ø</span>&nbsp&nbsp针对苹果市场提升竞争力，专业的ASO团队</p>
+            <p class="explain_1"><span>Ø</span>&nbsp&nbspASO，应用商店优化，对应用商店中排名、下载量以及评价都有着重要作用。</p>
 
         </div>
     </div>
@@ -230,52 +210,52 @@ include "header.php";
             </div>
         </div>
     </div>
-    <div class="bg-grey container-fluid">
-        <div class="clump w-1000 container">
-            <h3 class="title"> 业务详情</h3>
-            <ul class="business clearfix">
-                <li class="temp">
-                    <img src="images/icon_11.png" alt=""/>
-                    <div>
-                        <h4>政策介绍</h4>
-                        <ul class="business_list">
-                            <li><a href="" title="申请条件">申请条件</a></li>
-                            <li><a href="" title="合作模式">合作模式</a></li>
-                            <li><a href="" title="结算规则">结算规则</a></li>
-                            <li><a href="" title="开具规范">开具规范</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="temp">
-                    <img src="images/icon_12.png" alt=""/>
-                    <div>
-                        <h4>流程操作</h4>
-                        <ul class="business_list">
-                            <li><a href="" title="合作流程概览">合作流程概览</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="temp">
-                    <img src="images/icon_13.png" alt=""/>
-                    <div>
-                        <h4>帮助中心</h4>
-                        <ul class="business_list">
-                            <li><a href="account.php" title="账户管理">账户管理</a></li>
-                            <li><a href="" title="违规与作弊">违规与作弊</a></li>
-                            <li><a href="" title="推广与投放">推广与投放</a></li>
-                            <li><a href="text.php" title="数据与支付">数据与支付</a></li>
-                        </ul>
-                    </div>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-    <div class="bg-gray container-fluid">
-        <div class="cooperation w-1000 container">
-            <a href="" class="btn">加入合作</a>
-        </div>
-    </div>
+<!--    <div class="bg-grey container-fluid">-->
+<!--        <div class="clump w-1000 container">-->
+<!--            <h3 class="title"> 业务详情</h3>-->
+<!--            <ul class="business clearfix">-->
+<!--                <li class="temp">-->
+<!--                    <img src="images/icon_11.png" alt=""/>-->
+<!--                    <div>-->
+<!--                        <h4>政策介绍</h4>-->
+<!--                        <ul class="business_list">-->
+<!--                            <li><a href="" title="申请条件">申请条件</a></li>-->
+<!--                            <li><a href="" title="合作模式">合作模式</a></li>-->
+<!--                            <li><a href="" title="结算规则">结算规则</a></li>-->
+<!--                            <li><a href="" title="开具规范">开具规范</a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li class="temp">-->
+<!--                    <img src="images/icon_12.png" alt=""/>-->
+<!--                    <div>-->
+<!--                        <h4>流程操作</h4>-->
+<!--                        <ul class="business_list">-->
+<!--                            <li><a href="" title="合作流程概览">合作流程概览</a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li class="temp">-->
+<!--                    <img src="images/icon_13.png" alt=""/>-->
+<!--                    <div>-->
+<!--                        <h4>帮助中心</h4>-->
+<!--                        <ul class="business_list">-->
+<!--                            <li><a href="account.php" title="账户管理">账户管理</a></li>-->
+<!--                            <li><a href="" title="违规与作弊">违规与作弊</a></li>-->
+<!--                            <li><a href="" title="推广与投放">推广与投放</a></li>-->
+<!--                            <li><a href="text.php" title="数据与支付">数据与支付</a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!---->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="bg-gray container-fluid">-->
+<!--        <div class="cooperation w-1000 container">-->
+<!--            <a href="" class="btn">加入合作</a>-->
+<!--        </div>-->
+<!--    </div>-->
 </div>
 <?php
 include "footer.php";

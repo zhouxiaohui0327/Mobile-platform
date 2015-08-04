@@ -12,47 +12,28 @@
     <script src="http://cdn.bootcss.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <script src="http://cdn.bootcss.com/holder/2.0/holder.min.js"></script>
 </head>
-<body onload="slideUp()">
+<body>
 <?php
 include "header.php";
 ?>
+<?php
+include "carousel.php";
+?>
 <script>
     $(".header .nav a").eq(2).addClass("active");
+    $(".carousel-inner .item").eq(2).addClass("active");
 </script>
-<div class="banner container-fluid">
-    <div id="myCarousel" class="carousel slide container-fluid">
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-        </ol>
-        <!-- Carousel items -->
-        <div class="carousel-inner container">
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b94d7d8cc.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:GDc9d8L8SNGP%2BK4WWYnIh52LTmQ%3D)" class="active item"><img  src="images/-banner-5593b949372a1.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b94d7d8cc.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:GDc9d8L8SNGP%2BK4WWYnIh52LTmQ%3D)" class="item"><img src="images/-banner-5593b949372a1.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b94d7d8cc.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:GDc9d8L8SNGP%2BK4WWYnIh52LTmQ%3D)" class="item"><img src="images/-banner-5593b949372a1.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)" class="item"><img src="images/-banner-kuweiwangluokeji.jpg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b94d7d8cc.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:GDc9d8L8SNGP%2BK4WWYnIh52LTmQ%3D)" class="item"><img src="images/-banner-5593b949372a1.jpeg"  alt=""></div>
-        </div>
-        <!-- Carousel nav -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div>
-    <script>
-        $('.carousel').carousel({interval:2500});
-    </script>
-    <div class="notice container-fluid ">
-        <div class="w-1000 container">
-            <div class="tempWrap"  style="overflow: hidden;position: relative;height: 52px">
-                <ul style="height:208px;position:relative;padding:0;margin: 0;top: 0">
-                    <li class="clone"style="height:52px;">
+
+<!--    <div class="notice container-fluid ">-->
+<!--        <div class="w-1000 container">-->
+<!--            <div class="tempWrap"  style="overflow: hidden;position: relative;height: 52px">-->
+<!--                <ul style="height:208px;position:relative;padding:0;margin: 0;top: 0">-->
+<!--                    <li class="clone"style="height:52px;">-->
 <!--                        <a href="" title="新版上线，欢迎试用！" >-->
 <!--                            新版上线，欢迎试用！-->
 <!--                        </a>-->
 <!--                        <span>2015-07-01</span>-->
-                    </li>
+<!--                    </li>-->
 <!--                    <li class="clone" style="height:52px;">-->
 <!--                        <a href="" title="新版上线，欢迎试用！" >-->
 <!--                            新版上线，欢迎试用！-->
@@ -65,11 +46,10 @@ include "header.php";
 <!--                        </a>-->
 <!--                        <span>2015-07-01</span>-->
 <!--                    </li>-->
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 <div class="content container-fluid">
     <div class="bg-grey container-fluid">
         <div class="clump w-1000 container">
@@ -115,7 +95,7 @@ include "header.php";
 <!--    </div>-->
     <div class="bg-white container-fluid">
         <div class="clump w-1000 container">
-            <h3 class="title">推广实例</h3>
+            <h3 class="title">优质产品</h3>
             <div class="product" style="position: relative;overflow: hidden">
                 <ul class="clearfix" style="width:2500px;position: relative;overflow: hidden;padding: 0;left:-250px">
                     <li style="float:left;width: 190px">
