@@ -12,7 +12,7 @@
     <script src="http://cdn.bootcss.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <script src="http://cdn.bootcss.com/holder/2.0/holder.min.js"></script>
 </head>
-<body>
+<body onload="slideUp()">
 <?php
 include "header.php";
 ?>
@@ -21,11 +21,8 @@ include "header.php";
 include "carousel.php";
 ?>
 <script>
-    $(".header .nav a").eq(4).addClass("active");
-    $(".carousel-inner .item").eq(4).addClass("active");
+    $(".carousel-inner .item").eq(0).addClass("active");
 </script>
-
-
 
 <!--    <div class="notice container-fluid ">-->
 <!--        <div class="w-1000 container">-->
@@ -56,11 +53,13 @@ include "carousel.php";
 <div class="content container-fluid">
     <div class="bg-grey container-fluid">
         <div class="clump w-1000 container">
-            <h3 class="title">业务说明</h3>
-            <h5>各大市场的推荐位</h5>
-            <p class="explain_1" style="margin-top: 30px"><span>Ø</span>&nbsp&nbsp应用市场推荐位，分类榜单</p>
-            <p class="explain_1"><span>Ø</span>&nbsp&nbsp投放计划建议，效果服务跟踪</p>
-            <p class="explain_1"><span>Ø</span>&nbsp&nbsp例如：360手机助手，百度手机助手，应用宝，小米市场，豌豆荚等。</p>
+            <h3 class="title">联系方式</h3>
+            <h5>邮箱</h5>
+            <p class="explain_1" style="margin-top: 20px"><span>Ø</span>&nbsp&nbsp<a href="mailto:jiang@51kuwei.com">jiang@51kuwei.com</a>&nbsp&nbsp&nbsp&nbsp<span>Ø</span>&nbsp&nbsp<a href="mailto:st@51kuwei.com">st@51kuwei.com</a></p>
+            <h5>QQ</h5>
+            <p class="explain_1"><span>Ø</span>&nbsp&nbsp291950358&nbsp&nbsp&nbsp&nbsp<span>Ø</span>&nbsp&nbsp5423039</p>
+            <h5>电话</h5>
+            <p class="explain_1"><span>Ø</span>&nbsp&nbsp13588105680&nbsp&nbsp&nbsp&nbsp<span>Ø</span>&nbsp&nbsp13880156042</p>
         </div>
     </div>
     <?php
