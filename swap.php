@@ -2,7 +2,7 @@
 <html>
 <head lang="zh-cn">
     <meta charset="UTF-8">
-    <title>移动合作平台 - 百度APP付费推广、APP换量合作、移动搜索分成Mcp.baidu.com</title>
+    <title>app专业推广平台</title>
     <link rel="stylesheet"  href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/pay.css">
@@ -56,134 +56,28 @@ include "carousel.php";
             <h3 class="title">业务说明</h3>
             <p class="explain_1" style="margin-top: 30px">协助新产品在应用市场初期的下载，评论优化。</p>
             <p class="explain_1">持续跟踪，实时分析，效果提升。</p>
-        </div>
-    </div>
-<!--    <div class="bg-grey container-fluid">-->
-<!--        <div class="clump w-1000 container">-->
-<!--            <h3 class="title">海纳优势</h3>-->
-<!--            <ul class="worth list-unstyled clearfix">-->
-<!--                <li>-->
-<!--                    <img src="images/icon_aq.png" alt=""/>-->
-<!--                    <h4>安全</h4>-->
-<!--                    <div class="info">-->
-<!--                        采用业界领先的反作弊机制，保证流量真实-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <img src="images/icon_bz.png" alt=""/>-->
-<!--                    <h4>保质</h4>-->
-<!--                    <div class="info">-->
-<!--                        严控资源位置效果，流量价值不缩水-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <img src="images/icon_jd.png" alt=""/>-->
-<!--                    <h4>简单</h4>-->
-<!--                    <div class="info">-->
-<!--                        一点接入，多方合作，轻运营人力投入，稳定回报-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <img src="images/icon_bd01.png" alt=""/>-->
-<!--                    <h4>百度</h4>-->
-<!--                    <div class="info">-->
-<!--                        与知名百度产品形成流量互换，获取优质流量-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </div>-->
-    <div class="bg-white container-fluid">
-        <div class="clump w-1000 container">
-            <h3 class="title">优质产品</h3>
-            <div class="product" style="position: relative;overflow: hidden">
-                <ul class="clearfix" style="width:2500px;position: relative;overflow: hidden;padding: 0;left:-250px">
-                    <li style="float:left;width: 190px">
-                        <h4>代运营</h4>
-                        <a href="operation.php" class="icon" title="代运营">
-                            <img src="images/-product-55713fbcd210f.png" alt=""/>
-                        </a>
-                        <p class="info">产品分析，渠道建议，资源覆盖广，投放精准</p>
-                        <a href="operation.php" class="btn btn-primary">详情</a>
+            <div>
+                <ul>
+                    <li style="width:33.33%;display: inline-block;float: left;text-align: center">
+                        <h5 style="text-indent: 0px;">各大手机应用市场</h5>
+                        <img style="width: 200px;border-radius:40px;  border: 1px solid blue;" src="images/安卓各大应用市场.png" alt="各大手机应用市场"/>
                     </li>
-                    <li style="float:left;width: 190px">
-                        <h4>广点通</h4>
-                        <a href="" class="icon" title="广点通">
-                            <img src="images/-product-556837e18f415.png" alt=""/>
-                        </a>
-                        <p class="info">定制化推广服务商，精准投放的倡导者，经验丰富的代运营团队</p>
-                        <a href="" class="btn btn-primary">详情</a>
+                    <li style="width:33.33%;display: inline-block;float: left;text-align: center">
+                        <h5 style="text-indent: 0px;">苹果商店</h5>
+                        <img style="width: 200px" src="images/苹果商店.png" alt="苹果商店"/>
                     </li>
-                    <li style="float:left;width: 190px">
-                        <h4>数据优化</h4>
-                        <a href="" class="icon" title="数据优化">
-                            <img src="images/-product-5568380058afe.png" alt=""/>
-                        </a>
-                        <p class="info">专业团队，客户跟踪，实时分析，数据优化，提升效果</p>
-                        <a href="" class="btn btn-primary">详情</a>
-                    </li>
-                    <li style="float:left;width: 190px">
-                        <h4>ASO</h4>
-                        <a href="" class="icon" title="ASO">
-                            <img src="images/-product-557f98c86d33e.png" alt=""/>
-                        </a>
-                        <p class="info">协助新产品在应用市场初期的下载，评论优化</p>
-                        <a href="" class="btn btn-primary">详情</a>
-                    </li>
-                    <li style="float:left;width: 190px">
-                        <h4>各大应用市场</h4>
-                        <a href="market.php" class="icon" title="各大应用市场">
-                            <img src="images/-product-5568381099df1.png" alt=""/>
-                        </a>
-                        <p class="info">针对苹果市场提升竞争力，专业的ASO团队</p>
-                        <a href="market.php" class="btn btn-primary">详情</a>
-                    </li>
-                    <li style="float:left;width: 190px">
-                        <h4>代运营</h4>
-                        <a href="operation.php" class="icon" title="代运营">
-                            <img src="images/-product-55713fbcd210f.png" alt=""/>
-                        </a>
-                        <p class="info">产品分析，渠道建议，资源覆盖广，投放精准！</p>
-                        <a href="operation.php" class="btn btn-primary">详情</a>
-                    </li>
-                    <li style="float:left;width: 190px">
-                        <h4>广点通</h4>
-                        <a href="" class="icon" title="广点通">
-                            <img src="images/-product-556837e18f415.png" alt=""/>
-                        </a>
-                        <p class="info">定制化推广服务商，精准投放的倡导者，经验丰富的代运营团队</p>
-                        <a href="" class="btn btn-primary">详情</a>
-                    </li>
-                    <li style="float:left;width: 190px">
-                        <h4>数据优化</h4>
-                        <a href="" class="icon" title="数据优化">
-                            <img src="images/-product-5568380058afe.png" alt=""/>
-                        </a>
-                        <p class="info">专业团队，客户跟踪，实时分析，数据优化，提升效果</p>
-                        <a href="" class="btn btn-primary">详情</a>
-                    </li>
-                    <li style="float:left;width: 190px">
-                        <h4>ASO</h4>
-                        <a href="" class="icon" title="ASO">
-                            <img src="images/-product-557f98c86d33e.png" alt=""/>
-                        </a>
-                        <p class="info">协助新产品在应用市场初期的下载，评论优化</p>
-                        <a href="" class="btn btn-primary">详情</a>
-                    </li>
-                    <li style="float:left;width: 190px">
-                        <h4>各大应用市场</h4>
-                        <a href="market.php" class="icon" title="各大应用市场">
-                            <img src="images/-product-5568381099df1.png" alt=""/>
-                        </a>
-                        <p class="info">针对苹果市场提升竞争力，专业的ASO团队</p>
-                        <a href="market.php" class="btn btn-primary">详情</a>
+                    <li style="width:33.33%;display: inline-block;float: left;text-align: center">
+                        <h5 style="text-indent: 0px;">友盟数据优化</h5>
+                        <img style="width: 200px" src="images/友盟.jpg" alt="友盟数据优化"/>
                     </li>
                 </ul>
-                <a href="javascript:clickedPrev()" class="prev"></a>
-                <a href="javascript:clickedNext()" class="next"></a>
             </div>
         </div>
     </div>
+    <?php
+    include "carousel-multi.php";
+    ?>
+
 </div>
 <?php
 include "footer.php";

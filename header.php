@@ -2,7 +2,7 @@
 <html>
 <head lang="zh-cn">
     <meta charset="UTF-8">
-    <title>移动合作平台 - 百度APP付费推广、APP换量合作、移动搜索分成Mcp.baidu.com</title>
+    <title>app专业推广平台</title>
     <link rel="stylesheet"  href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
 </head>
@@ -15,7 +15,8 @@
             <a href="pay.php" title="广点通">广点通</a>
             <a href="swap.php" title="数据优化">数据优化</a>
             <a href="ASO.php" title="ASO">ASO</a>
-            <a href="advertisement.php" title="广告联盟">广告联盟</a>
+            <a href="market.php" title="应用市场">应用市场</a>
+            <a href="operation.php" title="代运营">代运营</a>
         </div>
 <!--        <div class="user">-->
 <!--            <div class="login">-->
