@@ -68,8 +68,8 @@
 
 <div class="copyright">
     <p>Copyright ©2015版权所有 移动合作平台</p>
-    <p>Mobile Cooperation Platform （Mcp.baidu.com） All Rights Reserved. </p>
-    <p>移动运营管理部 <a href="http://www.miitbeian.gov.cn/" title="京ICP备证030173号" target="_blank">京ICP备证030173号</a></p>
+    <p>Mobile Cooperation Platform （51kuwei.com） All Rights Reserved. </p>
+    <p>移动运营管理部 <a href="http://www.miitbeian.gov.cn/" title="浙ICP备10054923号-4" target="_blank">浙ICP备10054923号-4</a></p>
 </div>
 </body>
 </html>
