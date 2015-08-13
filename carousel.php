@@ -16,20 +16,13 @@
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-            <li data-target="#myCarousel" data-slide-to="5"></li>
         </ol>
 <!--         Carousel items -->
         <div class="carousel-inner container">
             <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)" class="item">
                 <a href="contact.php"><img src="images/-banner-kuweiwangluokeji.jpg"  alt=""></a></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)" class="item"><img  src="images/-banner-5593d76716357.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)"  class="item"><img src="images/-banner-5593d76716357.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)" class="item"><img src="images/-banner-5593b87d3ffdb.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)"  class="item"><img src="images/-banner-5593d76716357.jpeg"  alt=""></div>
-            <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)"  class="item"><img src="images/-banner-5593d76716357.jpeg"  alt=""></div>
+           <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)" class="item"><img  src="http://www.51kuwei.com/images/banner.png"  alt=""></div>
+
         </div>
 <!--         Carousel nav -->
         <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
@@ -38,7 +31,6 @@
     <script>
         $('.carousel').carousel({interval:2500});
     </script>
-    <div class="container-fluid" style="height:52px;background-color:#232c3a "></div>
 
 </body>
 </html>

@@ -60,7 +60,7 @@ table{
 
 .header{
     height:70px;
-    background-color:#020b18;
+    background-color:#fff;
 }
 .container-fluid{
     padding:0
@@ -79,7 +79,6 @@ table{
     height:70px;
     float: left;
     background:url(../images/logo_1.png)left center no-repeat;
-    background-size: 320px 45px;
 }
 .header .nav{
     display: inline-block;
@@ -92,18 +91,18 @@ table{
     margin: 0 20px;
     font-size: 18px;
     line-height: 70px;
-    color: white;
+    color: #000;
 }
 .header .nav a.active{
     height:70px;
-    color:#15a27b;
-    border-bottom:6px solid #15a27b;
+    color:#104C9D;
+    border-bottom:6px solid #104C9D;
 }
 .header .nav a:hover{
     text-decoration: none;
     height:70px;
-    color:#15a27b;
-    border-bottom:6px solid #15a27b;
+    color:#104C9D;
+    border-bottom:6px solid #104C9D;
 }
 .header .user{
     display:inline-block;
