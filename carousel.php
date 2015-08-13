@@ -18,10 +18,10 @@
             <li data-target="#myCarousel" data-slide-to="1"></li>
         </ol>
 <!--         Carousel items -->
-        <div class="carousel-inner container">
+        <div class="carousel-inner container" style="min-height:300px;">
             <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593b8842ca5f.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:wwZjGr16%2BNJotanrtLvs3wkrLRg%3D)" class="item">
                 <a href="contact.php"><img src="images/-banner-kuweiwangluokeji.jpg"  alt=""></a></div>
-           <div style="background:url(http://bj.bs.baidu.com/exchange-online-ueditor/%2Fbanner%2F5593d76b9e5f0.jpeg?sign=MBO:JnpJBX7ZyP083wgqQlHaD6XFOgZHrE1VuAX:Ysxikyl5csisgzOySKLEkjl4ILQ%3D)" class="item"><img  src="http://www.51kuwei.com/images/banner.png"  alt=""></div>
+           <div style="background:#fff;" class="item"><img  src="http://www.51kuwei.com/images/banner2.jpg"  alt=""></div>
 
         </div>
 <!--         Carousel nav -->

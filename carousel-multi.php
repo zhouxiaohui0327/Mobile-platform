@@ -27,11 +27,11 @@
                 </li>
                 <li style="float:left;width: 190px">
                     <h4>广点通</h4>
-                    <a href="pay.php" class="icon" title="广点通">
+                    <a href="gdt.php" class="icon" title="广点通">
                         <img src="images/icon-guangdiantong.jpg" alt=""/>
                     </a>
                     <p class="info">定制化推广服务商，精准投放的倡导者，经验丰富的代运营团队</p>
-                    <a href="pay.php" class="btn btn-primary">详情</a>
+                    <a href="gdt.php" class="btn btn-primary">详情</a>
                 </li>
                 <li style="float:left;width: 190px">
                     <h4>数据优化</h4>
@@ -43,11 +43,11 @@
                 </li>
                 <li style="float:left;width: 190px">
                     <h4>ASO</h4>
-                    <a href="ASO.php" class="icon" title="ASO">
+                    <a href="aso.php" class="icon" title="ASO">
                         <img src="images/icon-aso.png" alt=""/>
                     </a>
                     <p class="info">针对苹果市场提升竞争力，专业的ASO团队</p>
-                    <a href="ASO.php" class="btn btn-primary">详情</a>
+                    <a href="aso.php" class="btn btn-primary">详情</a>
                 </li>
                 <li style="float:left;width: 190px">
                     <h4>各大应用市场</h4>
@@ -67,11 +67,11 @@
                 </li>
                 <li style="float:left;width: 190px">
                     <h4>广点通</h4>
-                    <a href="pay.php" class="icon" title="广点通">
+                    <a href="gdt.php" class="icon" title="广点通">
                         <img src="images/icon-guangdiantong.jpg" alt=""/>
                     </a>
                     <p class="info">定制化推广服务商，精准投放的倡导者，经验丰富的代运营团队</p>
-                    <a href="pay.php" class="btn btn-primary">详情</a>
+                    <a href="gdt.php" class="btn btn-primary">详情</a>
                 </li>
                 <li style="float:left;width: 190px">
                     <h4>数据优化</h4>
@@ -83,11 +83,11 @@
                 </li>
                 <li style="float:left;width: 190px">
                     <h4>ASO</h4>
-                    <a href="ASO.php" class="icon" title="ASO">
+                    <a href="aso.php" class="icon" title="ASO">
                         <img src="images/icon-aso.png" alt=""/>
                     </a>
                     <p class="info">针对苹果市场提升竞争力，专业的ASO团队</p>
-                    <a href="ASO.php" class="btn btn-primary">详情</a>
+                    <a href="aso.php" class="btn btn-primary">详情</a>
                 </li>
                 <li style="float:left;width: 190px">
                     <h4>各大应用市场</h4>

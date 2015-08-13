@@ -21,7 +21,7 @@ include "carousel.php";
 ?>
 <script>
     $(".header .nav a").eq(1).addClass("active");
-    $(".carousel-inner .item").eq(1).addClass("active");
+    $(".carousel-inner .item").eq(0).addClass("active");
 </script>
 
 <!--    <div class="notice container-fluid ">-->

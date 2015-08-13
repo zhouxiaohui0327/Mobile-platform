@@ -12,9 +12,9 @@
         <a class="logo" href="index.php" title="酷维网络科技"></a>
         <div class="nav">
             <a href="index.php" title="首页">首页</a>
-            <a href="pay.php" title="广点通">广点通</a>
+            <a href="gdt.php" title="广点通">广点通</a>
             <a href="swap.php" title="数据优化">数据优化</a>
-            <a href="ASO.php" title="ASO">ASO</a>
+            <a href="aso.php" title="ASO">ASO</a>
             <a href="market.php" title="应用市场">应用市场</a>
             <a href="operation.php" title="代运营">代运营</a>
         </div>
